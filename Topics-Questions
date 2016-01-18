@@ -1,0 +1,93 @@
+Spark
+-----
+Introduction to Spark
+Comparing MapReduce vs Spark
+Spark Installation and Modes of Operation
+Spark with Yarn
+Spark Fundamentals
+Role of Spark Context
+RDD Fundamentals
+Transformations and Actions in RDD
+RDD API In Detail
+RDD Persistence
+Types of RDD (Pair RDD, Numeric RDD, JDBC RDD, Key-Value etc)
+RDD Partitioning
+Accumulators and Broadcast Variables
+RDD Internals
+Creating RDD From Different File Formats (Parquet, Avro, JSON, JDBC)
+Persisting data into memory and using it across spark processes
+Introducing Spark Data Frames and Datasets
+Introduction to Spark SQL
+Data Frames in Details and Creating Data Frames
+Transformations and Operation on Data Frames
+Various Spark SQL Operations
+Spark Schedulers
+Tuning and Debugging Spark and Spark SQL
+Working with Apache HBase and Hive
+Sample visualization using Tableu
+Introduction to Spark Streaming
+Spark vs Storm
+Dstreamsin detail
+Windowing Concept
+DstreamsAction and Transformations
+Window Level Actions and Transformations
+Integration with Kafka
+Performance tuning
+RDD Lineage and Caching Overview
+Parallel Programming with Spark - 
+Partitioning & HDFS Data locality
+Working with partition
+Executing parallel operations
+Transformations using Star schemas
+Persistent RDD usable across multiple applications 3. Security and Auditing/Debugging 4. Web/Tableu API for accessing RDD
+
+Misc
+----
+ Sqoop Concepts - import, export commands, usage of commands like
+    ‘options-file’,’mysql-delimiter’, ’hive-import’,’ hive-table’
+    Oozie and work flow automation
+    Spark
+    Storm
+    hbase - bloom filters, compaction, usage of
+    "hmaster,hregionserver,hregion,hlog,hfile,memstore",bulkload,filters
+    MR Concepts and Yarn programming
+    Advance Hive Concepts( Indexing,datatypes ,partitioning, bucketing,
+    udf's, joins, build in functions, different file formats, serde) and
+    Comparision of Impala and Hive
+    Cassandra
+    Pig Scripting (usage of simple and complex datatypes, about logical
+    and physical plan, co-group, join, usage of hcatloader and hcatstorer
+    in pig, udf's, build in functions, custom loaders, different file
+    formats, hive vs pig)
+    Solr Indexer
+    Kafka
+    HCatalog and WebHCatalog
+    Tez
+    Avro Json concepts
+    Visualization tool wrt to Bigdata (R programming)
+    pentaho - various components and its usage
+
+M-R
+---
+Map Reduce Operations - Working
+What isResource Manager and Node Manager
+Mapper Reducer Ratio. Are they equal? which is configurable
+Scenario - Mapper has completed job, 3 reducers have completed, one reducer is still running. More workload on this reducer. Reasons for this?
+Scenrio - When there is 1TB data file, will the number of Mapper and Reducers be same while processing 1TB data file(no compression) and when 1TB compressed file is there
+Hive  - difference b/w external and internal table
+Metastore and Partitio
+Linux  -system process is taking lot of memory. Reason for this? remedy for this?
+
+NLP
+---
+Confidence and strength of an email conversation
+How well confidence and strength know each other
+from email enquiry how to know how serious buyer is
+an email to customer support  - how to calculate the degree of negativity
+Whether the issue needs immediate attention
+Sentimental Analysis
+Libraries in Python and other languages for NLP
+
+
+
+
